@@ -8,10 +8,10 @@ import time
 
 # USER CONFIGURATION
 TOKEN = "PLACE TOKEN HERE"
+MY_DOMAIN = "https://utah.instructure.com"
 
 # Initialize some important variables:
 auth = {"Authorization": "Bearer " + TOKEN}
-MY_DOMAIN = "https://utah.instructure.com"
 start_date = datetime.datetime(1000, 1, 1).isoformat()
 
 # Necessary to list all announcements
