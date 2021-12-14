@@ -1,20 +1,17 @@
+#!/usr/bin/env python3
+
 # Using Canvas v1 API to access an Announcement and mark it as read
-import json
 import requests
 import os
 import datetime
 import time
 
+# USER CONFIGURATION
+TOKEN = "PLACE TOKEN HERE"
+
 # Initialize some important variables:
-
-HOME_DIR = os.path.expanduser("~")
-API_FILE = os.path.join(HOME_DIR, ".instructure", ".instructure.json")
-
-with open(API_FILE, "r") as f:
-    api_info = json.load(f)
-TOKEN = api_info["token"]
 auth = {"Authorization": "Bearer " + TOKEN}
-MY_DOMAIN = "https://umich.instructure.com"
+MY_DOMAIN = "https://utah.instructure.com"
 start_date = datetime.datetime(1000, 1, 1).isoformat()
 
 # Necessary to list all announcements

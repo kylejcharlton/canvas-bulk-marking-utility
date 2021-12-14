@@ -1,0 +1,2 @@
+# Needed packages not in the standard library
+requests
