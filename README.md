@@ -11,8 +11,10 @@ You need a Canvas LMS token to run this script.
 1. Log into the Canvas web app using your institution's domain (i.e., `https://umich.instructure.com`) and make a note of this `.instructure.com` URL.
 2. Under **Account** > **Settings** > **Approved Integrations**, choose to generate a new access token. Take note of this token (a long string of letters, numbers, and symbols) because you can't see it again once you leave that screen.
 3. Clone this repo to your local computer.
+
 ~~4. Change the `TOKEN` variable in the script to equal the generated access token from step 2.~~
 ~~5. Change the `MY_DOMAIN` variable in the script to match your institution's Canvas URL (e.g., `https://utah.instructure.com` for University of Utah).~~
+
 New instructions coming soon...
 
 
