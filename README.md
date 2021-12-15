@@ -22,7 +22,7 @@ New instructions coming soon...
 
 Install the required packages using `pip install -r requirements.txt` and run the script using Python, 3.6 or higher.
 
-Then just run the script directly. No command-line arguments are needed.
+Then just run the script directly.
 
 ```
 # On Linux/macOS/BSD
